@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html xmlns="http://www.shivam.work" >
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Shivam's Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            position: relative;
+            background-color: #fefefe;
+            margin: auto;
+            padding: 0;
+            border: 1px solid #888;
+            width: 80%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+            -webkit-animation-name: animatetop;
+            -webkit-animation-duration: 0.4s;
+            animation-name: animatetop;
+            animation-duration: 0.4s
+        }
+
+        /* Add Animation */
+        @-webkit-keyframes animatetop {
+            from {top:-300px; opacity:0} 
+            to {top:0; opacity:1}
+        }
+
+        @keyframes animatetop {
+            from {top:-300px; opacity:0}
+            to {top:0; opacity:1}
+        }
+
+        /* The Close Button */
+        .close {
+            color: white;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .modal-header {
+            padding: 2px 16px;
+            background-color: #F05F40;
+            color: white;
+        }
+
+        .modal-body {padding: 2px 16px;}
+
+        #social-media > * {
+           display: none;
+            margin-top: 30px;
+        }
+    </style>
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <!-- <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a> -->
+                <div id="socia-media"> 
+                    <a href="https://www.linkedin.com/in/shivamgupta07/" class="navbar-brand page-scroll" ><i class="fa fa-linkedin fa-2x"></i></a> 
+                    <a href="https://github.com/ShivamGupta7795" class="navbar-brand page-scroll"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/shivamg7795" class="navbar-brand page-scroll"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                    <a href="mailto:sgupta33@buffalo.edu" class="navbar-brand page-scroll"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading" class="cd-headline clip is-full-width">
+                    <!-- <span class="cd-words-wrapper">
+                        <b class="is-visible">Hi, I'm Shivam</b><br>
+                         <b>I'm a software developer</b><br>
+                        <b>I live in USA</b><br> -->
+                   <!--  </span> - -->
+                   Hi, I'm Shivam
+                </h1>
+                <h3>
+                    I'm a Software Developer!
+                </h3>
+                <br>
+                
+
+                <p>I perceive technology as a wide world of subtle opportunities and a way to bring change!</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">About Me</a>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">About Me!</h2>
+                    <hr class="light">
+                   
+                   
+                        <p class="text-faded">I'm a grad student at 
+                        <a href="http://engineering.buffalo.edu/computer-science-engineering.html" style="color: white;">University at Buffalo</a> 
+                        in Computer Science and Engineering Department. I'm a software developer at 
+                        <a href="https://www.thisisud.com/index.php" style="color: white;">IDeA Center</a>, UB, where I'm working as a full stack web app developer. I was a cyber security research assistant at UB's CSE Department, where I worked with
+                        <a href="https://www.cse.buffalo.edu/~shambhu/" style="color: white;">Prof. Shambhu J. Upadhyaya</a> on his research project "Cyber Security in Manufacturing". 
+                        I also have overall two years of experience in OS Development, Website Development and Data Analytics. I'm actively looking for a software developer job opportunity where I can utilize my programming and logical skills!</p>
+                        
+
+                    
+                    <a class="btn btn-default btn-xl" id ="resume">See Resume!</a>  
+
+                    <div class="modal" id = "modal-resume">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                            </div>
+                            <div class="modal-body" style="max-width: 500px;">
+                                <img src="img/portfolio/thumbnails/Resume-1.png">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">What I'm Best With</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center" id="skill1" >
+                    <div class="service-box" >
+                        <i class="fa fa-4x fa-code text-primary sr-icons"></i>
+                        <h3 >Web App Development</h3>
+                        <p class="text-muted" id="skill1_des" style="display: none;">With 2 years of experience in Agile and Web Development, I'm proficient in working with Angular4, PHP and Database Management. Have a look at my work: <br>
+                        <a href="https://miceroots.com/"><u>Miceroots</u></a><br>
+                        <a href="https://journalspress.com/"><u>London Journal Press</u></a><br>
+                        <a href="https://www.thisisud.com/"><u>innovative solutions for Universal Design</u></a></p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center" id= "skill2">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-desktop text-primary sr-icons"></i>
+                        <h3>Operating System</h3>
+                        <p class="text-muted" id = "skill2_des" style="display: none;">I've 6 months of experience with Linux Kernel Development. During my work I had designed and implemented various OS functionalities. Have a look at my code: <br><a href="https://github.com/ShivamGupta7795/file-process-system-calls"><u>GitHub Link</u></a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center" id= "skill3">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-cubes text-primary sr-icons"></i>
+                        <h3>Software Development</h3>
+                        <p class="text-muted" id= "skill3_des" style="display: none;">As an avid learner, I always tend to do something creative. As a hobbie, I've developed various projects with Python, Java, Android, iOS and Angular4 environment. You can see my project here: <br><a href="https://github.com/ShivamGupta7795"><u>GitHub Link</u></a> </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center" id= "skill4">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-cloud text-primary sr-icons"></i>
+                        <h3>Computer Security</h3>
+                        <p class="text-muted" id = "skill4_des" style = "display: none;"> With a year of experience in Computer Security as a Research Assistant at UB, I've worked with <a href="https://www.cse.buffalo.edu/~shambhu/">Professor Shmabhu J. Upadhyaya.</a> As a RA, I learned and developed studies to prevent cyber attacks in a digital manufacturing industry. My studies were then used to create a computer security course on coursera! Here is the link: <br> <a href="https://www.coursera.org/learn/cyber-security-manufacturing">Cyber Security in Manufacturing</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <aside class="bg-dark">
+        <div class="container">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">My Projects!</h2>
+                    <hr class="primary">
+                </div> 
+        </div>
+        </aside>
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name" id= "1">
+                                    <h4>Virtual Memory Management and System Calls <br><u>View Details</u></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id = "myModal1">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Virtual Memory Management and Process System Calls</h2>
+                      </div>
+                      <div class="modal-body">
+                        <p>Technologies: Linux, C, Assembly, Git, Vagrant OS, Virtual-box</p>
+                        <p>Duration: March, 2017 - May, 2017</p>
+                        <p>Description: The project was divided in two phases. <br>Phase 1:
+                        The objective of the project was to understand and implement system calls. This also required designing and implementation of data structures to manage processes in the operating system. One of the challenge in the project was to write code that meets a specified interface definition. I approached the challenge by first creating a design document which clearly reflected the development of my solution. <br>
+                        Phase 2: The Objective of the phase 2 was to understand and design a set of interfaces to implement a collection of functionality including, paging, swapping, TLB management and handling page faults. <br>
+                        <center><a class="btn btn-primary" href="https://github.com/ShivamGupta7795/file-process-system-calls">GitHub Repo</a> </center>
+                      </p>
+                      </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name" id= "2">
+                                    <h4>Android-Based Amazon Dynamo Simulated Application <br><u>View Details</u></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id = "myModal2">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>An Android Based Distributed System Application</h2>
+                      </div>
+                      <div class="modal-body">
+                      <p>Technologies: Android, Java, XML, Sockets, Quorum Replication, FIFO-Total Ordering</p>
+                      <p>Duration: Feb 2017 - March 2017</p>
+                      <p>Description: The Objective of the project was to implement an Android Based Distributed System which simulates the Amazon Dynamo application. The android AVD's were used to store and share information, where the data gets stored in a specific partition, according to their hash codes. I used Quorum Replication for storing the replicas of the data in the network nodes. These replicas are then used for failure handling and recovery. If a machine fails then it's data can be fetched from it's replicas and during recovery, the machine can fetch previous and other missing data using replicas. <br> <center><a class="btn btn-primary" href="https://github.com/ShivamGupta7795/simpleamazondynamoapp">GitHub Repo</a> </center> </p>
+                      
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name" id= "3" onclick = "showmodal('project3')">
+                                    <h4>Multilingual Text Searching and Summarization <br><u>View Details</u></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal" id = "myModal3">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Multilingual Text Search Engine</h2>
+                      </div>
+                      <div class="modal-body">
+                      <p>Technologies: Python, Apache Solr, Ubuntu, AWS, MediaWiki, Apache Spark, Twitter APIs</p>
+                      <p>Duration: Oct 2016 - Dec 2016</p>
+                      <p>Description: The objective of the project was to create a text search engine which can provide search results along with text summaries of the searched topics, in different languages. I gathered the data in English, Spanish, Portugese, Turkish and German by ingesting Twitter stream on trending topics using Twitter Rest API. Thereafter, I parsed the collected data and retrieved useful information from tweets using Python libraries. After parsing the data, the tweets were clustered into topics and subtopics using Apache Spark. <br> For providing text search functionality, I used AWS EC2 Console and Apache Solr-Lucene Text Search Engine. The topic summaries were created using Wikipedia's MediaWiki API. <br> <center><a class="btn btn-primary" href="https://github.com/ShivamGupta7795">GitHub Repo</a> </center>   </p>
+                      </div>
+                    </div>
+                </div>
+                
+                
+                 <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name" id= "4" onclick = "showmodal('project3')">
+                                    <h4> Cyber Security in Manufacturing <br><u>View Details</u></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Research on Cyber Security in Manufacturing</h2>
+                      </div>
+                      <div class="modal-body">
+                      <p>Resources: <a href="https://goo.gl/qXEsrn">Here is List of Resources</a></p>
+                      <p>Duration: Sept 2016 - May 2017</p>
+                      <p>Description: The objective of the research was to create a Cyber Security studies in Digital Manufacturing. During the project I worked with Professor<a href="https://www.cse.buffalo.edu/~shambhu/">Shambhu J. Upadhyaya</a>. I studied various security concepts including security threats, breach prevention, monitoring, email security, and encryption techniques. After 9 months of studies I was able to create a course on Cyber Security in Manufacturing which is now published on Coursera. <br> <center> <a class="btn btn-primary" href="https://www.coursera.org/learn/cyber-security-manufacturing"> Cyber Security in Manufacturing </a></center>  </p>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name" id= "5" onclick = "showmodal('project3')">
+                                    <h4> Distributed Hash Table <br><u>View Details</u></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>An Implementation of Simple Distributed System Using Chord.</h2>
+                      </div>
+                      <div class="modal-body">
+                      <p>Technologies Used: Android, Java, Sockets, Chord Algorithm, Finger based routing, Distributed Hash Table Algorithm</p>
+                      <p>Duration: Feb 2017 - March 2017 </p>
+                      <p>Description: The Objective of the project was to implement a distributed hash table system based on chord, using Android AVD's. The design of the system was based on the chord, finger table and finger based routing. The objects were stored in partitions according to their hash keys. Partitions shares the data using chord and finger table routing. I used Java Data Structures including Hash Maps and Arrays to implement the insert, delete, update and query operations on the chord DHT.
+                      <br> <center><a class="btn btn-primary" href="https://github.com/ShivamGupta7795/distributedhashtable">GitHub Repo</a> </center>  </p>
+                      </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name" id= "6" onclick = "showmodal('project3')">
+                                    <h4> Image Segmentation and Shape Detection <br><u>View Details</u></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="modal">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Image Segmentation and Shape Recognition</h2>
+                      </div>
+                      <div class="modal-body">
+                      <p>This project aimed to detect image object shapes. I used segmentation, hough circle transform algorithm, edge detection, gaussian filters and region divide and merge.  Hough Transform is a technique to detect shapes of objects whose boundaries are not clear defined i.e. somewhat occluded. Instead of using other edge detection techniques such as Sobel or Canny which will produce noisy edges, the advantage of using Hough transform technique was that it was tolerant of gaps in feature boundary descriptions and is relatively unaffected by image noise.
+                      Certain image processing techniques that I used during this project are:<br>
+                        ● Gaussian Blur <br>
+                        ● Edge Detection <br>
+                        ● Thresholding and thinning <br>
+                        ● Hough Transform Algorithm <br> <center><a class="btn btn-primary" href="https://github.com/ShivamGupta7795/HoughCircles">GitHub Repo</a> </center>  </p>
+                      </div>
+                    </div>
+                </div>
+
+                
+                
+            </div>
+        </div>
+    </section>
+
+   
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Want to Hire me? Great! Give me a call or send an email on this!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>650-431-4451</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:sgupta33@buffalo.edu">sgupta33@buffalo.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.js"></script>
+    <script type="text/javascript" src="js/my.js"></script>
+   <!--  <script type="text/javascript" src = "js/typed.js"></script> -->
+
+
+
+    
+
+</body>
+
+</html>
