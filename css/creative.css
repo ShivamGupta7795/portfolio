@@ -92,7 +92,7 @@ aside {
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 15px;
   color: #222222;
 }
 .navbar-default .nav > li > a:hover,
@@ -448,3 +448,27 @@ body {
     from, to { border-color: transparent }
     50% { border-color: black }
 }
+
+.work-icon-div{
+  width: 108px;
+  height: 70px;
+  margin-top: 2%; 
+ 
+}
+.work-icon-div img{
+  height: 100%;
+  width: 100%
+}
+ 
+.work-content{
+   border-bottom: 1px solid #f05f40;
+}
+
+#last-div{
+  border: none;
+}
+
+#contact{
+  background-color: #222222; color: white;
+}
+
